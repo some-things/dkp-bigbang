@@ -1,0 +1,12 @@
+displayName: Minecraft
+description: Deploys a Minecraft Server
+allowMultipleInstances: true
+category:
+  - general
+scope:
+  - workspace
+  - project
+overview: |-
+  # Overview
+
+  ## More Information
