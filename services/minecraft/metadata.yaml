@@ -1,6 +1,6 @@
 displayName: Minecraft
 description: Deploys a Minecraft Server
-allowMultipleInstances: true
+allowMultipleInstances: false
 category:
   - general
 scope:
@@ -9,4 +9,8 @@ scope:
 overview: |-
   # Overview
 
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus nisl, egestas nec malesuada sed, cursus et risus. Suspendisse eget purus eu elit tincidunt vestibulum sit amet eu felis. Cras sit amet arcu est. Mauris consectetur odio velit, quis vulputate massa venenatis quis. Suspendisse quis orci non mauris efficitur tempor a in elit. Pellentesque eu libero vitae lacus accumsan ultrices. In condimentum eros a urna tincidunt, at elementum nunc rutrum. Sed et ultricies orci, eu dignissim enim. Praesent tincidunt ullamcorper condimentum. Ut vulputate quam eget lacus laoreet tincidunt. Etiam at dolor ac eros ullamcorper consectetur.
+
   ## More Information
+
+  Fusce sem ante, commodo eget laoreet at, placerat eu justo. Cras finibus congue neque porttitor interdum. Quisque condimentum nunc sed auctor molestie. Nulla ut maximus metus, vitae vehicula nunc. Proin commodo ipsum vitae urna feugiat, sed dignissim nunc scelerisque. Ut quis ligula rhoncus, interdum massa in, hendrerit arcu. Proin nibh lectus, commodo at elit et, porttitor rutrum ligula. Etiam ultrices vitae felis in tristique. Cras imperdiet posuere arcu id ultrices. Vivamus posuere lorem eget rhoncus dapibus.
