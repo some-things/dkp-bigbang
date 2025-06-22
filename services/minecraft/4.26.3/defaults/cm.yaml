@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: ${releaseName}-4.26.3-defaults
+  name: ${releaseName}
   namespace: ${releaseNamespace}
 data:
   values.yaml: |
