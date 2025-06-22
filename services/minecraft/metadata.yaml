@@ -1,6 +1,6 @@
 displayName: Minecraft
 description: Deploys a Minecraft Server
-allowMultipleInstances: false
+allowMultipleInstances: true
 category:
   - general
 scope:
