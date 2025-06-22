@@ -5,5 +5,5 @@ metadata:
   name: itzg.github.io-minecraft-server-charts
   namespace: ${workspaceNamespace}
 spec:
-  url: "${helmMirrorURL:=https://itzg.github.io/minecraft-server-charts/}"
+  url: "https://itzg.github.io/minecraft-server-charts/"
   interval: 10m
