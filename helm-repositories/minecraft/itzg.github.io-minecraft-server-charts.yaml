@@ -2,8 +2,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: ${releaseName}
+  name: itzg.github.io-minecraft-server-charts
   namespace: ${workspaceNamespace}
 spec:
-  url: "https://itzg.github.io/minecraft-server-charts/"
+  url: "${helmMirrorURL:=https://itzg.github.io/minecraft-server-charts/}"
   interval: 10m
