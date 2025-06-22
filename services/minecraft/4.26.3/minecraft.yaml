@@ -2,7 +2,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta2
 kind: HelmRelease
 metadata:
-  name: ${releaseName}
+  name: minecraft
   namespace: ${releaseNamespace}
 spec:
   chart:
@@ -10,7 +10,7 @@ spec:
       chart: minecraft
       sourceRef:
         kind: HelmRepository
-        name: ${releaseName}
+        name: itzg.github.io-minecraft-server-charts
         namespace: ${workspaceNamespace}
       version: 4.26.3
   interval: 15s
@@ -24,5 +24,5 @@ spec:
   releaseName: minecraft
   valuesFrom:
     - kind: ConfigMap
-      name: ${releaseName}-4.26.3-defaults
+      name: minecraft-4.26.3-defaults
   targetNamespace: ${releaseNamespace}
