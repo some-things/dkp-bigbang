@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: ${releaseName}
+  name: minecraft-4.26.3-defaults
   namespace: ${releaseNamespace}
 data:
   values.yaml: |
